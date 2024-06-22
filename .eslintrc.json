@@ -1,0 +1,22 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["github", "jest"],
+  "extends": [
+    "plugin:github/recommended",
+    "plugin:github/browser",
+    "plugin:github/typescript"
+  ],
+  "rules": {
+    "eslint-comments/no-use": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/no-nodejs-modules": "off",
+    "import/no-named-as-default": "off",
+    "filenames/match-regex": "off",
+    "i18n-text/no-en": "off",
+    "@typescript-eslint/ban-ts-comment": "off",
+    "github/no-then": "off"
+  },
+  "ignorePatterns": ["build"]
+}
