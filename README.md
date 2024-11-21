@@ -1,6 +1,6 @@
 # Fluent UI v9 / Remix starter
 
-This is a pretty basic setup, with no frills. It uses a classic remix compiler and not `vite`. The vite compiler has some issues with `@fluentui/react-icons`, it throws an error `unexpected token 'export'`. If you have an idea on how to fix it, create a new PR.
+This is a pretty basic setup, with no frills. It uses the new `vite` compiler and `renderToPipeableStream` approach for server-side rendering. Everything works fine, if you notice any issues, please let me know.
 
 ## Development
 
