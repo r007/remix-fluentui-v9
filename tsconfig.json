@@ -1,16 +1,21 @@
 {
   "include": [
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "**/.server/**/*.ts",
+    "**/.server/**/*.tsx",
+    "**/.client/**/*.ts",
+    "**/.client/**/*.tsx"
   ],
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "commonjs",
     "lib": ["DOM", "DOM.Iterable", "ES2022"],
-    "types": ["@remix-run/node"],
+    "types": ["@remix-run/node", "vite/client"],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "resolveJsonModule": true,
     "strict": true,
     "allowJs": true,
